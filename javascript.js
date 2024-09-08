@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (index >= 2) {
             currentSlidev1 = 0;
         } else if (index < 0) {
-            currentSlidev1 = totalSlide - 1;
+            currentSlidev1 = 1;
         } else {
             currentSlidev1 = index;
         }
